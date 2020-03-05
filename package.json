@@ -2,8 +2,17 @@
     "name": "@lifeworldb/pts",
     "version": "0.1.4",
     "private": false,
+    "publishConfig": { "registry": "https://npm.pkg.github.com/" },
     "description": "Project Template Starter - pts is a base generator for javascript projects",
     "main": "index.js",
+    "bin": {
+        "@lifeworldb/pts": "bin/pts",
+        "pts": "bin/pts"
+    },
+    "files": [
+        "bin/",
+        "modules/"
+    ],
     "scripts": {
         "test": "echo \"No test specified\""
     },

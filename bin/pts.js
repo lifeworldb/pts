@@ -3,8 +3,8 @@
 const chalk = require('chalk')
 const figlet = require('figlet')
 const program = require('commander')
-const menu = require('./modules/menu')
-const creator = require('./modules/creator')
+const menu = require('../modules/menu')
+const creator = require('../modules/creator')
 const pkg = require('./package')
 const log = console.log
 

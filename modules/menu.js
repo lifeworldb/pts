@@ -24,7 +24,8 @@ const questions = [{
         name: 'template',
         message: 'Select a template',
         choices: [
-            { title: 'Apollo Server Express', value: 'apolloExpress' }
+            { title: 'Apollo Server Express', value: 'apolloExpress' },
+            { title: 'Apollo Server With CRUD Mongodb', value: 'apolloMongo'}
         ]
     },
     {

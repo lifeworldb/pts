@@ -1,6 +1,6 @@
 {
     "name": "@lifeworldb/pts",
-    "version": "0.1.9",
+    "version": "0.2.0",
     "description": "Project Template Starter - pts is a base generator for javascript projects",
     "main": "index.js",
     "bin": {
